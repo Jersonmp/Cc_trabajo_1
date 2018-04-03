@@ -15,7 +15,7 @@ int main(){
 				y+=1;}
 		
 		if(y<3){
-			cout<<z<<",";
+			cout<<z<<"\n";
 			z++;
 			y=1;
 		}
