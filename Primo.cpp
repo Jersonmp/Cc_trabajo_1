@@ -16,5 +16,5 @@ int main(){
 			cout<<x<<" es primo ";
 		else
 			cout<<x<<" no es primo";
-}
+	}
 }
