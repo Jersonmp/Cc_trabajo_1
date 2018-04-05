@@ -5,7 +5,8 @@ int main(){
 	int num;
 	cin>>num;
 	if(num>=10000 and num<=99999){
-		for(int i=10000;i>=1;i/=10){
+		for(int i=10000;i>=1;i/=10)
+		{			
 			cout<<num/i<<"\t";
 			num=num%i;
 		}
