@@ -11,11 +11,5 @@ int main(){
 		num /=10;
 		nua=nua*10+aux;
 	}
-	if(nuo==nua)
-		cout<<"Es palindromo";
-	else
-		cout<<"No es palindromo";
-	
-	
-		
+	(nuo==nua)?cout<<"Es palindromo":cout<<"No es palindromo";
 }
