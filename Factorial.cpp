@@ -1,14 +1,10 @@
 #include<iostream>
 using namespace std;
 
-int factorial(int num){
-	int res;
-	res=1;
-	while(num>1){
-		res=res*num;
-		num--;
-	}
-return res;
+int factorial(int n){
+	if(n<0)return 0;
+	else if(n>1) return n*factorial(n-1);
+	return 1;
 }
 int main(){
 	cout<<factorial(5);
