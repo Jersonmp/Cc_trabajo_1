@@ -19,9 +19,6 @@ void PrimosHastaN(int num){
 	
 }
 int main(){
-	cout<<"Inserta un numero --> ";
-	int x;
-	cin>>x;
-	PrimosHastaN(x);
+	PrimosHastaN(15);
 	}
 
