@@ -10,8 +10,7 @@ int main(){
 	
 	while(w!=x){
 		for (int i=2;i<=z;i++){
-			if(z%i==0)
-				y+=1;
+			(z%i==0)?y+=1:true;
 		}
 		(y<3)?cout<<z<<"\n",z++,y=1,w+=1:z++,y=1;
 		/*if(y<3){
@@ -27,5 +26,6 @@ int main(){
 		}*/
 	}
 }
+
 
 
