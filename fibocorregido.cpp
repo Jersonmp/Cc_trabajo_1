@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-int main (){
+/*int main (){
 	int a1,a2,a3 ,n, contador;
 	a1=1;
 	a2=0;
@@ -17,4 +17,21 @@ int main (){
             contador=contador++;
 		}
 
+}*/
+int fibonacci(int n){
+	if(n==0 || n==1)
+		return 1;
+	else{
+		return fibonacci(n-2)+fibonacci(n-1);
+	}
+}
+
+int main(){
+	cout<<"Inserte cantidad\n";
+	int num,res;
+	cin>>num;
+	for(int i;i<num;i++){
+		res=fibonacci(i);
+		cout<<res<<endl;
+	}
 }
