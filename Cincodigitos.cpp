@@ -13,9 +13,6 @@ void ImprimeSeparados(int numero){
 	}
 }
 int main(){
-	cout<<"Inserte un numero de 5 digitos"<<endl;
-	int num;
-	cin>>num;
-	ImprimeSeparados(num);
+	ImprimeSeparados(45689);
 	
 }
