@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-int factorial(int num){
+void factorial(int num){
 	int res;
 	res=1;
 	while(num>1){
