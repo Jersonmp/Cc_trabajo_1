@@ -1,10 +1,13 @@
 #include <iostream>
 using namespace std;
+
+void bisiesto(int num){
+	(num % 4 == 0 && (num % 100 != 0 || num % 400 == 0))? cout<<"El anho "<<num<<" si es bisiesto ":cout<<"El anho "<<num<<" No es bisiesto ";
+}
+
 int main(){
-      int a;
-      cout<<"Ingresa anho"<<endl;
-      cin>>a;
-     (a % 4 == 0 && (a % 100 != 0 || a % 400 == 0))? cout<<"El anho "<<a<<" si es bisiesto ":cout<<"El anho "<<a<<" No es bisiesto ";
-     
-      
+	int anho;
+	cout<<"Inserte el anho--> ";
+	cin>>anho;
+	bisiesto(anho);
 }
