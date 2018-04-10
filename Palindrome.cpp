@@ -1,9 +1,7 @@
 #include<iostream>
 using namespace std;
-int main(){
-	cout<<"Inserta un numero de 5 digitos para saber si es palindromo\n";
-	int nuo, num, nua =0, aux;
-	cin>>num;
+int Palindrome(int num){
+	int nuo, nua =0, aux;
 	nuo=num;
 	while(num>0)
 	{
@@ -11,5 +9,12 @@ int main(){
 		num /=10;
 		nua=nua*10+aux;
 	}
+	
 	(nuo==nua)?cout<<"Es palindromo":cout<<"No es palindromo";
+}
+int main(){
+	cout<<"Inserta un numero para saber si es palindromo\n";
+	int x;
+	cin>>x;
+	Palindrome(x);
 }
