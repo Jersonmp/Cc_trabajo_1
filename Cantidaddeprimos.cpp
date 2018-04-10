@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-int ImprimeNPrimos(int num){
+void ImprimeNPrimos(int num){
 	int w,y,z;
 	y=1;
 	z=2;
@@ -13,10 +13,7 @@ int ImprimeNPrimos(int num){
 	}
 }
 int main(){
-	int cantidad;
-	cout<<"Inserte la cantidad de primos"<<endl;
-	cin>>cantidad;
-	ImprimeNPrimos(cantidad);
+	ImprimeNPrimos(10);
 }
 
 
