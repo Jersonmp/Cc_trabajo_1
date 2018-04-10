@@ -10,8 +10,5 @@ void ListaDeNumeros(int numero){
 }
 
 int main(){
-    cout << "Ingrese un numero ---> ";
-    int x;
-    cin>>x;
-    ListaDeNumeros(x);
+    ListaDeNumeros(15);
     }
