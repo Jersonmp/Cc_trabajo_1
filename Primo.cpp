@@ -1,9 +1,7 @@
 #include<iostream>
 using namespace std;
-int main(){
-	int x,y,z;
-	cout<<"Inserte un numero ---> ";
-	cin>>x;
+void EsPrimo(int x){
+	int y,z;
 	y=1;
 	(x==1 or x==0)?cout<<"No es primo":true;                                       
 	if(x>=2){
@@ -11,4 +9,9 @@ int main(){
 		(y<3)?cout<<x<<" es primo ":cout<<x<<" no es primo\n";
 	}
 }
-
+int main(){
+	cout<<"Inserte numero -->";
+	int num;
+	cin>>num;
+	EsPrimo(num);
+}
