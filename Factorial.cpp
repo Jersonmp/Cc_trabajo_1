@@ -1,13 +1,17 @@
 #include<iostream>
 using namespace std;
-int main(){
-	cout<<"Ingrese numero para saber su factorial ---> ";
-	int num,res;
-	cin>>num;
+int factorial(int num){
+	int res;
 	res=1;
 	while(num>1){
 		res=res*num;
 		num--;
 	}
-	cout<<"El factorial es "<<res;
+	cout<<"Factorial es "<<res;
+}
+int main(){
+	cout<<"Ingrese numero para saber su factorial ---> ";
+	int valor;
+	cin>>valor;
+	factorial(valor);
 }
