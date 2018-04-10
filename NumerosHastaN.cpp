@@ -1,14 +1,17 @@
 #include <iostream>
-
+//Imprime lista de numeros
 using namespace std;
 
-int main()
-{
+void ListaDeNumeros(int numero){
+	for(int i=0;i<numero;i++){
+    	cout<< i<<",";
+	}
+	cout<<numero;
+}
+
+int main(){
     cout << "Ingrese un numero ---> ";
     int x;
     cin>>x;
-    for(int i=0;i<x;i++){
-    	cout<< i<<",";
-	}
-	cout<<x;
-}
+    ListaDeNumeros(x);
+    }
